@@ -17,8 +17,8 @@ limitations under the License.
 package iolimit
 
 import (
-	"github.com/openebs/lib-csi/pkg/common/errors"
-	"github.com/openebs/lib-csi/pkg/common/helpers"
+	"github.com/huangjiao-heart/lib-csi/pkg/common/errors"
+	"github.com/huangjiao-heart/lib-csi/pkg/common/helpers"
 	"io/ioutil"
 	"strconv"
 	"strings"

@@ -19,7 +19,7 @@ package k8s
 import (
 	"strings"
 
-	"github.com/openebs/lib-csi/pkg/common/env"
+	"github.com/huangjiao-heart/lib-csi/pkg/common/env"
 	"github.com/pkg/errors"
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
@@ -67,7 +67,8 @@ func (c *configFromREST) Get() (*rest.Config, error) {
 // ConfigGetters holds a list of ConfigGetter instances
 //
 // NOTE:
-//  This is an implementation of ConfigGetter
+//
+//	This is an implementation of ConfigGetter
 type ConfigGetters []ConfigGetter
 
 // Name returns the name of this config getter instance

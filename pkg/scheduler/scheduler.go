@@ -20,7 +20,7 @@ import (
 	"sort"
 
 	"github.com/container-storage-interface/spec/lib/go/csi"
-	k8sapi "github.com/openebs/lib-csi/pkg/client/k8s"
+	k8sapi "github.com/huangjiao-heart/lib-csi/pkg/client/k8s"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/klog"
 )
